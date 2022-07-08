@@ -8,16 +8,9 @@ namespace CassApp
     {
         int timeCounter = Settings.PersonTimeToIn;
         public event UserService.UserIn UserEnterToCasses;
-        private event CassaService.CloseCassa TryCloseCassa;
-        private event CassaService.LockCassa TryLockCassa;
-        private event CassaService.ChangeCassaCetegorys ChangeCetegory;
-        public TimeCordinator()
-        {
-            UserEnterToCasses += UserService.UserEnter;
-            TryCloseCassa += CassaService.Close;
-            TryLockCassa += CassaService.LockUnlock;
-            ChangeCetegory += CassaService.ChangeCetegorys;
-        }
+        public event UserService.UserOut UserLivesCassa;
+        public event CassaService.ChengeCassaDelegate TryChangeCassa;
+
         public void Cordinate(List<Cassa> casses)
         {
             Random random = new Random();
@@ -51,7 +44,8 @@ namespace CassApp
                     if (!item.IsEmpty && --item.Peek().TimeServise <= 0)
                     {
                         string message = $"Cassa_{++number}: {item.Dequeue()} has been observed. Time:{time}";
-                        PrintService.Print(message);
+                        UserLivesCassa(message);
+                        //PrintService.Print(message);
                     }
                     Thread.Sleep(100);
                 }
@@ -61,9 +55,7 @@ namespace CassApp
                     if (closedCasses.Count > 0)
                         foreach (Cassa item in closedCasses) casses.Remove(item);
                 }
-                TryCloseCassa(time, ref casses);
-                TryLockCassa(time, ref casses);
-                ChangeCetegory(time, ref casses);
+                TryChangeCassa(time, ref casses);
             }
         }
     }

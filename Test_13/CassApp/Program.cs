@@ -13,7 +13,12 @@ namespace CassApp
             CassaService.AddCassaChangeCategoryTiming(15, "warior");
             FileService.Save(Settings.ResultFileName, "", false);//Clear result file
             TimeCordinator timeCordinator = new TimeCordinator();
-
+            timeCordinator.UserEnterToCasses += UserService.UserEnter;
+            timeCordinator.TryChangeCassa += CassaService.Close;
+            timeCordinator.TryChangeCassa += CassaService.LockUnlock;
+            timeCordinator.TryChangeCassa += CassaService.ChangeCategorys;
+            timeCordinator.UserLivesCassa += UserService.UserLeaves;
+            timeCordinator.UserLivesCassa += PrintService.Print;
             timeCordinator.Cordinate(new List<Cassa>
             {
                 new Cassa (22),

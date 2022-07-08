@@ -10,7 +10,6 @@ namespace CassApp
 {
     internal class Cassa
     {
-        private event UserService.UserOut UserLivesCassa;
         PriorityQueue<Person, int> queuePersons;
         private Person? currentPerson;
         //Це людина, яка вже обслуговується, вона не може бути подвинута назад
@@ -28,7 +27,6 @@ namespace CassApp
         {
             queuePersons = new();
             Cordinate = 0;
-            UserLivesCassa += UserService.UserLeaves;
             IsOpen = true;
             Categories = new();
             isLock = false;
@@ -65,8 +63,6 @@ namespace CassApp
         {
             Person? dequeuePerson = currentPerson;
             currentPerson = queuePersons.Count > 0 ? queuePersons.Dequeue() : null;
-            if (dequeuePerson != null)
-                UserLivesCassa(dequeuePerson, this);
             return dequeuePerson;
         }
         public Person? Peek()

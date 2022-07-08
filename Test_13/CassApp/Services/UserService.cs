@@ -10,7 +10,7 @@ namespace CassApp.Services
     internal class UserService
     {
         public delegate void UserIn(int position, Person user, ref List<Cassa> casses);
-        public delegate void UserOut(Person user, Cassa cassa);
+        public delegate void UserOut(string message);
         public static void UserEnter(int position, Person user, ref List<Cassa> casses)
         {
             int bestPos = SelectBestCassa(position, user, ref casses);
@@ -25,9 +25,8 @@ namespace CassApp.Services
             if (bestCassa == null) return position;
             return casses.IndexOf(bestCassa);
         }
-        public static void UserLeaves(Person user, Cassa cassa)
+        public static void UserLeaves(string message)
         {
-            string message = $"Cassa_{cassa.Cordinate}: {user.Name} has been observed.";
             FileService.Save(Settings.ResultFileName, message);
         }
     }

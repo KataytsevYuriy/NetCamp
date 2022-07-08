@@ -1,43 +1,50 @@
 
-Cassa_0: User335 has been observed.
-Cassa_22: User3 has been observed.
-Cassa_11: User387 has been observed.
-Cassa_22: User484 has been observed.
-Cassa_0: User159 has been observed.
-Cassa_11: User367 has been observed.
-Cassa_0: User60 has been observed.
-Cassa_11: User387 has been observed.
-Cassa_22: User297 has been observed.
-Cassa_0: User310 has been observed.
-Cassa_11: User105 has been observed.
-Cassa_11: User455 has been observed.
-Cassa_0: User367 has been observed.
-Cassa_11: User64 has been observed.
-Cassa_11: User139 has been observed.
-Cassa_11: User428 has been observed.
-Cassa_11: User433 has been observed.
-Cassa_11: User439 has been observed.
-Cassa_11: User357 has been observed.
-Cassa_11: User303 has been observed.
-Cassa_11: User402 has been observed.
-Cassa_11: User293 has been observed.
-Cassa_11: User417 has been observed.
-Cassa_11: User352 has been observed.
-Cassa_11: User211 has been observed.
-Cassa_11: User327 has been observed.
-Cassa_11: User77 has been observed.
-Cassa_11: User482 has been observed.
-Cassa_11: User5 has been observed.
-Cassa_11: User253 has been observed.
-Cassa_11: User176 has been observed.
-Cassa_11: User305 has been observed.
-Cassa_11: User450 has been observed.
-Cassa_11: User365 has been observed.
-Cassa_11: User190 has been observed.
-Cassa_11: User287 has been observed.
-Cassa_11: User126 has been observed.
-Cassa_11: User260 has been observed.
-Cassa_11: User166 has been observed.
-Cassa_11: User215 has been observed.
-Cassa_11: User205 has been observed.
-Cassa_11: User499 has been observed.
+Cassa_1: pensioner User229 38 13 0 has been observed. Time:14
+Cassa_2: user User195 37 14 0 has been observed. Time:14
+Cassa_1: pensioner User342 55 15 0 has been observed. Time:16
+Cassa_1: user User353 42 8 0 has been observed. Time:25
+Cassa_1: student User276 38 10 0 has been observed. Time:27
+Cassa_1: warior User152 65 0 0 has been observed. Time:32
+Cassa_1: warior User305 72 14 0 has been observed. Time:33
+Cassa_1: pensioner User171 68 14 0 has been observed. Time:34
+Cassa_1: warior User252 73 1 0 has been observed. Time:41
+Cassa_1: student User446 38 9 0 has been observed. Time:51
+Cassa_1: warior User114 47 3 0 has been observed. Time:52
+Cassa_1: pensioner User18 31 15 0 has been observed. Time:60
+Cassa_1: warior User353 67 2 0 has been observed. Time:65
+Cassa_1: pensioner User4 72 8 0 has been observed. Time:68
+Cassa_1: pensioner User185 41 7 0 has been observed. Time:83
+Cassa_1: pensioner User326 59 16 0 has been observed. Time:100
+Cassa_1: pensioner User71 72 12 0 has been observed. Time:115
+Cassa_1: pensioner User169 63 5 0 has been observed. Time:127
+Cassa_1: pensioner User461 49 1 0 has been observed. Time:136
+Cassa_1: user User75 52 0 0 has been observed. Time:153
+Cassa_1: student User354 36 10 0 has been observed. Time:160
+Cassa_1: student User214 48 18 0 has been observed. Time:176
+Cassa_1: user User302 53 18 0 has been observed. Time:184
+Cassa_1: student User455 31 13 0 has been observed. Time:191
+Cassa_1: user User442 58 17 0 has been observed. Time:209
+Cassa_1: student User177 37 10 0 has been observed. Time:216
+Cassa_1: user User240 25 19 0 has been observed. Time:227
+Cassa_1: student User284 52 3 0 has been observed. Time:242
+Cassa_1: student User412 70 1 0 has been observed. Time:248
+Cassa_1: student User458 69 7 0 has been observed. Time:261
+Cassa_1: user User154 74 15 0 has been observed. Time:275
+Cassa_1: user User438 48 14 0 has been observed. Time:286
+Cassa_1: user User39 77 19 0 has been observed. Time:299
+Cassa_1: user User355 59 14 0 has been observed. Time:310
+Cassa_1: user User223 60 9 0 has been observed. Time:320
+Cassa_1: user User151 63 8 0 has been observed. Time:332
+Cassa_1: user User475 79 15 0 has been observed. Time:345
+Cassa_1: user User322 48 17 0 has been observed. Time:362
+Cassa_1: user User411 57 16 0 has been observed. Time:375
+Cassa_1: user User77 57 13 0 has been observed. Time:381
+Cassa_1: student User340 52 13 0 has been observed. Time:400
+Cassa_1: user User156 77 17 0 has been observed. Time:417
+Cassa_1: student User162 40 2 0 has been observed. Time:436
+Cassa_1: student User237 59 8 0 has been observed. Time:445
+Cassa_1: student User475 71 8 0 has been observed. Time:455
+Cassa_1: user User134 71 2 0 has been observed. Time:464
+Cassa_1: student User134 34 19 0 has been observed. Time:481
+Cassa_1: student User193 20 9 0 has been observed. Time:492
+Cassa_1: student User239 24 0 0 has been observed. Time:501

@@ -9,11 +9,9 @@ namespace CassApp.Services
 {
     internal class CassaService
     {
-        public delegate void CloseCassa(int time, ref List<Cassa> casses);
+        public delegate void ChengeCassaDelegate(int time, ref List<Cassa> casses);
         private static List<int> stopList = new();
-        public delegate void LockCassa(int time, ref List<Cassa> casses);
         private static List<int> lockList = new();
-        public delegate void ChangeCassaCetegorys(int time, ref List<Cassa> casses);
         private static Dictionary<int, List<int>> changeList = new();
         public static void Close(int time, ref List<Cassa> casses)
         {
@@ -40,7 +38,7 @@ namespace CassApp.Services
                 }
             }
         }
-        public static void ChangeCetegorys(int time, ref List<Cassa> casses)
+        public static void ChangeCategorys(int time, ref List<Cassa> casses)
         {
             if (changeList.Count > 0 && changeList.ContainsKey(time))
             {
