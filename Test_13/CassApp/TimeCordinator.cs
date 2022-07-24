@@ -45,7 +45,6 @@ namespace CassApp
                     {
                         string message = $"Cassa_{++number}: {item.Dequeue()} has been observed. Time:{time}";
                         UserLivesCassa(message);
-                        //PrintService.Print(message);
                     }
                     Thread.Sleep(100);
                 }

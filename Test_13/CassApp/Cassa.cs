@@ -12,7 +12,6 @@ namespace CassApp
     {
         PriorityQueue<Person, int> queuePersons;
         private Person? currentPerson;
-        //Це людина, яка вже обслуговується, вона не може бути подвинута назад
         private bool isOpen;
         private bool isLock;
         private List<int> categories;
