@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Newtonsoft.Json;
+using StorageApp.Cactory;
 using StorageApp.Models;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -42,3 +43,9 @@ using (Stream stream = new FileStream(flName, FileMode.Open))
 {
     newStorage = (Storage)binarySerializer.Deserialize(stream);
 }
+IMeatCreator creator = new ChickenMeatCreator();
+MeatCooperative coop = new (creator);
+storage.AddProduct(coop.SendToSuperMarket());
+creator = new PorkMeatCreator();
+coop = new(creator);
+storage.AddProduct(coop.SendToSuperMarket());
