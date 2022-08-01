@@ -13,3 +13,6 @@ Console.WriteLine();
 _4 fourth = new();
 fourth.Start();
 Console.WriteLine();
+_5 fifth = new();
+fifth.Start();
+Console.WriteLine();
